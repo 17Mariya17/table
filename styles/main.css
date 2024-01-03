@@ -1,0 +1,43 @@
+/* common styles */
+:root {
+  --aqua: #11badc;
+}
+
+.page-wrap {
+  min-height: 100vh;
+  background: rgb(9, 107, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 107, 121, 1) 36%,
+    rgba(2, 0, 36, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.container {
+  max-width: calc(1130px + 35px * 2);
+  padding: 100px 35px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#table1 {
+  border: 1px solid var(--aqua);
+  color: white;
+  font-size: 32px;
+  max-width: 1000px;
+  overflow-x: auto;
+  text-align: center;
+}
+
+#table1 tr {
+  border: 1px solid var(--aqua);
+  padding: 10px;
+}
+
+#table1 td {
+  border: 1px solid var(--aqua);
+  padding: 10px;
+}
